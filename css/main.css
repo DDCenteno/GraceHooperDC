@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    padding: 10px;
+}
+.biography{
+    width: 78%;
+    font-size: 14px;
+    width: 72%;
+    line-height: 1.6;
+    display: inline-block;
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+header hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.summary{
+    margin-top: 15px;
+    display: inline-block;
+    /* se alinee vertical mente*/
+    vertical-align: top;
+    width: 20%;
+}
+.summary-table{
+    border: 1px solid gray;
+    background-color: gainsboro;
+    padding: 3px;
+    font-size: 14px;
+
+}
+.summary-table thead th{
+    background-color:lightblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;  
+}
+.summary-table tbody tr:first-child{
+    text-align: center;
+}
+
+.summary-table tbody th{
+    text-align: left;
+}
